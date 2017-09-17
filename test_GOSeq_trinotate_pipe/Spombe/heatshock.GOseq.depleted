@@ -1,0 +1,15 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0044422	0.998736007252268	0.00273815230914389	21	422	organelle part	CC	0.9999999999	0.9999999999	CC organelle part
+GO:0044446	0.998736007252268	0.00273815230914389	21	422	intracellular organelle part	CC	0.9999999999	0.9999999999	CC intracellular organelle part
+GO:0032991	0.995376105855789	0.0104191875807862	12	311	macromolecular complex	CC	0.9999999999	0.9999999999	CC macromolecular complex
+GO:0030529	0.998050918233609	0.0149796708978787	1	91	ribonucleoprotein complex	CC	0.9999999999	0.9999999999	CC ribonucleoprotein complex
+GO:0043228	0.996186980459578	0.018135036132745	2	78	non-membrane-bounded organelle	CC	0.9999999999	0.9999999999	CC non-membrane-bounded organelle
+GO:0043232	0.996186980459578	0.018135036132745	2	78	intracellular non-membrane-bounded organelle	CC	0.9999999999	0.9999999999	CC intracellular non-membrane-bounded organelle
+GO:0048037	0.993763370711841	0.0280975683943781	2	53	cofactor binding	MF	0.9999999999	0.9999999999	MF cofactor binding
+GO:0006807	0.979205757594705	0.0372353300750549	19	377	nitrogen compound metabolic process	BP	0.9999999999	0.9999999999	BP nitrogen compound metabolic process
+GO:0006732	1	0.0377337956182198	0	33	coenzyme metabolic process	BP	0.9999999999	0.9999999999	BP coenzyme metabolic process
+GO:0034641	0.976246485786329	0.0433597339608929	16	344	cellular nitrogen compound metabolic process	BP	0.9999999999	0.9999999999	BP cellular nitrogen compound metabolic process
+GO:0006396	0.989077454610492	0.0440067660141924	2	110	RNA processing	BP	0.9999999999	0.9999999999	BP RNA processing
+GO:0044281	0.975623691393078	0.047538248656459	12	177	small molecule metabolic process	BP	0.9999999999	0.9999999999	BP small molecule metabolic process
+GO:0050662	0.988098972096299	0.0491130661583582	2	40	coenzyme binding	MF	0.9999999999	0.9999999999	MF coenzyme binding
+GO:0043234	0.976199129212869	0.0495789662282039	9	225	protein complex	CC	0.9999999999	0.9999999999	CC protein complex

@@ -1,0 +1,65 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term
+GO:0006950	2.80218366680757e-05	0.999990973508447	29	132	response to stress	BP	0.104735872894672	BP response to stress
+GO:0050896	5.36007537843767e-05	0.999980159856612	37	178	response to stimulus	BP	0.104735872894672	BP response to stimulus
+GO:0033554	0.000192000011889135	0.999937513019244	22	115	cellular response to stress	BP	0.25011201548758	BP cellular response to stress
+GO:0051716	0.000290599854217376	0.999889347292561	29	157	cellular response to stimulus	BP	0.283916057570376	BP cellular response to stimulus
+GO:0009628	0.0016007132797553	0.999645610196009	11	25	response to abiotic stimulus	BP	0.9999999999	BP response to abiotic stimulus
+GO:0007033	0.00166191494829153	0.999952089607216	3	5	vacuole organization	BP	0.9999999999	BP vacuole organization
+GO:0034599	0.00181992182486419	0.999734177399463	8	14	cellular response to oxidative stress	BP	0.9999999999	BP cellular response to oxidative stress
+GO:0070887	0.00240467025184366	0.999400410610352	12	27	cellular response to chemical stimulus	BP	0.9999999999	BP cellular response to chemical stimulus
+GO:0004844	0.00319718746478132	1	2	2	uracil DNA N-glycosylase activity	MF	0.9999999999	MF uracil DNA N-glycosylase activity
+GO:0019104	0.00319718746478132	1	2	2	DNA N-glycosylase activity	MF	0.9999999999	MF DNA N-glycosylase activity
+GO:0097506	0.00319718746478132	1	2	2	deaminated base DNA N-glycosylase activity	MF	0.9999999999	MF deaminated base DNA N-glycosylase activity
+GO:0006979	0.00396155795831252	0.999301858492881	8	15	response to oxidative stress	BP	0.9999999999	BP response to oxidative stress
+GO:0006298	0.00554918613404284	0.999884930988757	2	4	mismatch repair	BP	0.9999999999	BP mismatch repair
+GO:0030983	0.00554918613404284	0.999884930988757	2	4	mismatched DNA binding	MF	0.9999999999	MF mismatched DNA binding
+GO:0000045	0.00653748404895312	1	2	2	autophagic vacuole assembly	BP	0.9999999999	BP autophagic vacuole assembly
+GO:0005991	0.00659881011086151	1	5	5	trehalose metabolic process	BP	0.9999999999	BP trehalose metabolic process
+GO:0042221	0.00920537373402127	0.996918525671034	13	36	response to chemical	BP	0.9999999999	BP response to chemical
+GO:0016799	0.00949265805984297	0.999672171770981	2	6	hydrolase activity, hydrolyzing N-glycosyl compounds	MF	0.9999999999	MF hydrolase activity, hydrolyzing N-glycosyl compounds
+GO:0003690	0.0126675728692925	0.99899743437309	3	7	double-stranded DNA binding	MF	0.9999999999	MF double-stranded DNA binding
+GO:0034045	0.012726974142134	0.999708926383502	2	3	pre-autophagosomal structure membrane	CC	0.9999999999	CC pre-autophagosomal structure membrane
+GO:0072594	0.0134765128318519	0.99798929879067	4	19	establishment of protein localization to organelle	BP	0.9999999999	BP establishment of protein localization to organelle
+GO:0000780	0.0199557791254291	0.999417814464915	2	3	condensed nuclear chromosome, centromeric region	CC	0.9999999999	CC condensed nuclear chromosome, centromeric region
+GO:0040020	0.0199807168794698	0.998671729880897	4	5	regulation of meiosis	BP	0.9999999999	BP regulation of meiosis
+GO:0000348	0.0209321637242993	1	1	1	mRNA branch site recognition	BP	0.9999999999	BP mRNA branch site recognition
+GO:0000349	0.0209321637242993	1	1	1	generation of catalytic spliceosome for first transesterification step	BP	0.9999999999	BP generation of catalytic spliceosome for first transesterification step
+GO:0004674	0.0222428376742728	0.995680290111712	7	11	protein serine/threonine kinase activity	MF	0.9999999999	MF protein serine/threonine kinase activity
+GO:0032258	0.0226324851705566	1	1	1	CVT pathway	BP	0.9999999999	BP CVT pathway
+GO:0019538	0.0261421306904132	0.986461399726043	22	161	protein metabolic process	BP	0.9999999999	BP protein metabolic process
+GO:0031398	0.0275796468005711	1	1	1	positive regulation of protein ubiquitination	BP	0.9999999999	BP positive regulation of protein ubiquitination
+GO:0045116	0.0275796468005711	1	1	1	protein neddylation	BP	0.9999999999	BP protein neddylation
+GO:0051340	0.0275796468005711	1	1	1	regulation of ligase activity	BP	0.9999999999	BP regulation of ligase activity
+GO:0051351	0.0275796468005711	1	1	1	positive regulation of ligase activity	BP	0.9999999999	BP positive regulation of ligase activity
+GO:0051438	0.0275796468005711	1	1	1	regulation of ubiquitin-protein transferase activity	BP	0.9999999999	BP regulation of ubiquitin-protein transferase activity
+GO:0051443	0.0275796468005711	1	1	1	positive regulation of ubiquitin-protein transferase activity	BP	0.9999999999	BP positive regulation of ubiquitin-protein transferase activity
+GO:0012506	0.0301711970700119	0.999771510259576	1	2	vesicle membrane	CC	0.9999999999	CC vesicle membrane
+GO:0030659	0.0301711970700119	0.999771510259576	1	2	cytoplasmic vesicle membrane	CC	0.9999999999	CC cytoplasmic vesicle membrane
+GO:0016667	0.0302425622498792	0.996433061671907	3	8	oxidoreductase activity, acting on a sulfur group of donors	MF	0.9999999999	MF oxidoreductase activity, acting on a sulfur group of donors
+GO:0006464	0.0321082280813105	0.984616839109394	16	111	cellular protein modification process	BP	0.9999999999	BP cellular protein modification process
+GO:0036211	0.0321082280813105	0.984616839109394	16	111	protein modification process	BP	0.9999999999	BP protein modification process
+GO:0010035	0.0325113370222258	0.994798598168858	4	9	response to inorganic substance	BP	0.9999999999	BP response to inorganic substance
+GO:0043565	0.0327170138204471	0.992368278875826	5	19	sequence-specific DNA binding	MF	0.9999999999	MF sequence-specific DNA binding
+GO:0005984	0.0354485857841903	0.992327531640112	6	11	disaccharide metabolic process	BP	0.9999999999	BP disaccharide metabolic process
+GO:0016209	0.037410470193209	0.994117894587797	4	8	antioxidant activity	MF	0.9999999999	MF antioxidant activity
+GO:0044267	0.0393336637154518	0.979793829474754	18	141	cellular protein metabolic process	BP	0.9999999999	BP cellular protein metabolic process
+GO:0031324	0.0404061459806212	0.985849522454212	8	35	negative regulation of cellular metabolic process	BP	0.9999999999	BP negative regulation of cellular metabolic process
+GO:0009892	0.0412773827824893	0.985434171079154	8	36	negative regulation of metabolic process	BP	0.9999999999	BP negative regulation of metabolic process
+GO:0006606	0.0413212881990804	0.996568493702899	2	8	protein import into nucleus	BP	0.9999999999	BP protein import into nucleus
+GO:0051170	0.0413212881990804	0.996568493702899	2	8	nuclear import	BP	0.9999999999	BP nuclear import
+GO:1902593	0.0413212881990804	0.996568493702899	2	8	single-organism nuclear import	BP	0.9999999999	BP single-organism nuclear import
+GO:0005686	0.0415920275438455	0.999304117774548	1	5	U2 snRNP	CC	0.9999999999	CC U2 snRNP
+GO:0009311	0.0424756570161233	0.989850768793919	6	12	oligosaccharide metabolic process	BP	0.9999999999	BP oligosaccharide metabolic process
+GO:0006995	0.0426684029369625	0.999267305101179	1	5	cellular response to nitrogen starvation	BP	0.9999999999	BP cellular response to nitrogen starvation
+GO:0043562	0.0426684029369625	0.999267305101179	1	5	cellular response to nitrogen levels	BP	0.9999999999	BP cellular response to nitrogen levels
+GO:0000243	0.0448698588243831	0.999490773470981	1	2	commitment complex	CC	0.9999999999	CC commitment complex
+GO:0000118	0.0465923741097168	1	1	1	histone deacetylase complex	CC	0.9999999999	CC histone deacetylase complex
+GO:0032221	0.0465923741097168	1	1	1	Rpd3S complex	CC	0.9999999999	CC Rpd3S complex
+GO:0070822	0.0465923741097168	1	1	1	Sin3-type complex	CC	0.9999999999	CC Sin3-type complex
+GO:0004672	0.0489594183457493	0.986901060414825	7	13	protein kinase activity	MF	0.9999999999	MF protein kinase activity
+GO:0005992	0.0490995375925636	1	3	3	trehalose biosynthetic process	BP	0.9999999999	BP trehalose biosynthetic process
+GO:0009312	0.0490995375925636	1	3	3	oligosaccharide biosynthetic process	BP	0.9999999999	BP oligosaccharide biosynthetic process
+GO:0046351	0.0490995375925636	1	3	3	disaccharide biosynthetic process	BP	0.9999999999	BP disaccharide biosynthetic process
+GO:0006476	0.0499423689070057	0.999367450548727	1	2	protein deacetylation	BP	0.9999999999	BP protein deacetylation
+GO:0016575	0.0499423689070057	0.999367450548727	1	2	histone deacetylation	BP	0.9999999999	BP histone deacetylation
+GO:0035601	0.0499423689070057	0.999367450548727	1	2	protein deacylation	BP	0.9999999999	BP protein deacylation

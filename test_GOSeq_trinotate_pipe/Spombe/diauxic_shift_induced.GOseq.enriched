@@ -1,0 +1,47 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term
+GO:0055114	2.40039957411781e-05	0.999993887954075	29	47	oxidation-reduction process	BP	0.0938076153565239	BP oxidation-reduction process
+GO:0005975	0.000281178108283699	0.999895382246111	34	72	carbohydrate metabolic process	BP	0.474138636506785	BP carbohydrate metabolic process
+GO:0044723	0.000435275555710033	0.999856357770813	27	51	single-organism carbohydrate metabolic process	BP	0.474138636506785	BP single-organism carbohydrate metabolic process
+GO:0005355	0.0010919262355581	1	7	7	glucose transmembrane transporter activity	MF	0.474138636506785	MF glucose transmembrane transporter activity
+GO:0008645	0.0010919262355581	1	7	7	hexose transport	BP	0.474138636506785	BP hexose transport
+GO:0015145	0.0010919262355581	1	7	7	monosaccharide transmembrane transporter activity	MF	0.474138636506785	MF monosaccharide transmembrane transporter activity
+GO:0015149	0.0010919262355581	1	7	7	hexose transmembrane transporter activity	MF	0.474138636506785	MF hexose transmembrane transporter activity
+GO:0015749	0.0010919262355581	1	7	7	monosaccharide transport	BP	0.474138636506785	BP monosaccharide transport
+GO:0015758	0.0010919262355581	1	7	7	glucose transport	BP	0.474138636506785	BP glucose transport
+GO:0016491	0.00157929055436741	0.99931059312151	32	90	oxidoreductase activity	MF	0.617186748646785	MF oxidoreductase activity
+GO:0044724	0.00193178290837241	0.999470283220451	16	29	single-organism carbohydrate catabolic process	BP	0.686309782356308	BP single-organism carbohydrate catabolic process
+GO:0005996	0.00221961112361078	0.999511569648756	14	21	monosaccharide metabolic process	BP	0.722853355922576	BP monosaccharide metabolic process
+GO:0015144	0.00321121348569883	0.999675404399055	8	10	carbohydrate transmembrane transporter activity	MF	0.740533192243615	MF carbohydrate transmembrane transporter activity
+GO:0051119	0.00321121348569883	0.999675404399055	8	10	sugar transmembrane transporter activity	MF	0.740533192243615	MF sugar transmembrane transporter activity
+GO:1901476	0.00321121348569883	0.999675404399055	8	10	carbohydrate transporter activity	MF	0.740533192243615	MF carbohydrate transporter activity
+GO:0005353	0.00334832592291034	1	5	5	fructose transmembrane transporter activity	MF	0.740533192243615	MF fructose transmembrane transporter activity
+GO:0015755	0.00334832592291034	1	5	5	fructose transport	BP	0.740533192243615	BP fructose transport
+GO:0016052	0.00341084888955606	0.998913126332959	17	34	carbohydrate catabolic process	BP	0.740533192243615	BP carbohydrate catabolic process
+GO:0019321	0.00666706763736688	1	6	6	pentose metabolic process	BP	0.9999999999	BP pentose metabolic process
+GO:0044262	0.00680903239463195	0.997481175814719	19	39	cellular carbohydrate metabolic process	BP	0.9999999999	BP cellular carbohydrate metabolic process
+GO:0016616	0.00863884628384818	0.997735028729321	12	20	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	MF	0.9999999999	MF oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+GO:0019400	0.00912016623657561	0.998856290188558	8	10	alditol metabolic process	BP	0.9999999999	BP alditol metabolic process
+GO:0019318	0.00995295559022668	0.997524055688005	11	18	hexose metabolic process	BP	0.9999999999	BP hexose metabolic process
+GO:0046365	0.0103130075676628	0.998168681086629	8	12	monosaccharide catabolic process	BP	0.9999999999	BP monosaccharide catabolic process
+GO:0016614	0.0112759456090382	0.996476874626149	13	25	oxidoreductase activity, acting on CH-OH group of donors	MF	0.9999999999	MF oxidoreductase activity, acting on CH-OH group of donors
+GO:0032787	0.0157429374176404	0.994591367985262	12	30	monocarboxylic acid metabolic process	BP	0.9999999999	BP monocarboxylic acid metabolic process
+GO:0015578	0.0159511700558038	1	4	4	mannose transmembrane transporter activity	MF	0.9999999999	MF mannose transmembrane transporter activity
+GO:0015761	0.0159511700558038	1	4	4	mannose transport	BP	0.9999999999	BP mannose transport
+GO:0006082	0.0179184897105061	0.991489206861892	20	77	organic acid metabolic process	BP	0.9999999999	BP organic acid metabolic process
+GO:0043436	0.0179184897105061	0.991489206861892	20	77	oxoacid metabolic process	BP	0.9999999999	BP oxoacid metabolic process
+GO:0019751	0.0181995764675646	0.9963553938365	8	12	polyol metabolic process	BP	0.9999999999	BP polyol metabolic process
+GO:0008643	0.0186085004694756	0.996218808984626	7	12	carbohydrate transport	BP	0.9999999999	BP carbohydrate transport
+GO:0044710	0.018831673774517	0.988061545510113	61	344	single-organism metabolic process	BP	0.9999999999	BP single-organism metabolic process
+GO:0019405	0.0197033643622277	0.997230322533172	7	9	alditol catabolic process	BP	0.9999999999	BP alditol catabolic process
+GO:0044275	0.0217722601476939	0.993046855374526	11	22	cellular carbohydrate catabolic process	BP	0.9999999999	BP cellular carbohydrate catabolic process
+GO:0019323	0.0250864435113323	1	4	4	pentose catabolic process	BP	0.9999999999	BP pentose catabolic process
+GO:0019566	0.0250864435113323	1	4	4	arabinose metabolic process	BP	0.9999999999	BP arabinose metabolic process
+GO:0019568	0.0250864435113323	1	4	4	arabinose catabolic process	BP	0.9999999999	BP arabinose catabolic process
+GO:0019752	0.0264374288597074	0.9870588139151	19	76	carboxylic acid metabolic process	BP	0.9999999999	BP carboxylic acid metabolic process
+GO:0046174	0.0276736344052664	0.994883160382633	7	10	polyol catabolic process	BP	0.9999999999	BP polyol catabolic process
+GO:0050662	0.0280164381805422	0.988553094725116	13	40	coenzyme binding	MF	0.9999999999	MF coenzyme binding
+GO:0048037	0.0346277693888865	0.984473951501134	14	53	cofactor binding	MF	0.9999999999	MF cofactor binding
+GO:0019320	0.0368920712359102	0.992414207827549	6	10	hexose catabolic process	BP	0.9999999999	BP hexose catabolic process
+GO:1901616	0.0387366645222569	0.988704372650428	8	16	organic hydroxy compound catabolic process	BP	0.9999999999	BP organic hydroxy compound catabolic process
+GO:0044282	0.0394933580745797	0.984034839172194	11	37	small molecule catabolic process	BP	0.9999999999	BP small molecule catabolic process
+GO:0005622	0.0418769716882051	0.99583603523411	5	6	intracellular	CC	0.9999999999	CC intracellular
