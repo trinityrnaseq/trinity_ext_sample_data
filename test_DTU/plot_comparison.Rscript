@@ -1,0 +1,6 @@
+#!/usr/bin/env Rscript
+
+data = read.table("compare.dat", header=T)
+pdf("compare.pdf")
+plot(-1*log10(data$g_padj), -1*log10(data$s_padj))
+
