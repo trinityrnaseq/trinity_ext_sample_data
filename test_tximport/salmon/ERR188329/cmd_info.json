@@ -1,0 +1,10 @@
+{
+    "salmon_version": "0.6.0",
+    "threads": "10",
+    "biasCorrect": [],
+    "index": "salmon_0.6.0/index",
+    "libType": "IU",
+    "mates1": "/dev/fd/63",
+    "mates2": "/dev/fd/62",
+    "output": "salmon_0.6.0/ERR188329"
+}

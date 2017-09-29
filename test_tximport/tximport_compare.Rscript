@@ -1,0 +1,31 @@
+#!/usr/bin/env Rscript
+
+# code from vignette, modified as needed.
+# http://bioconductor.org/packages/release/bioc/vignettes/tximport/inst/doc/tximport.html
+
+
+library(tximportData)
+dir <- system.file("extdata", package = "tximportData")
+
+samples <- read.table(file.path(dir, "samples.txt"), header = TRUE)
+files <- file.path(dir, "salmon", samples$run, "quant.sf")
+names(files) <- paste0("c_", samples$run)
+
+tx2gene <- read.csv(file.path(dir, "tx2gene.csv"))
+
+library(tximport)
+library(readr)
+txi <- tximport(files, type = "salmon", tx2gene = tx2gene, countsFromAbundance="scaledTPM")
+
+
+write.table(txi$abundance, "tximport.abundance.dat", quote=F, sep="\t")
+write.table(txi$counts, "tximport.counts.dat", quote=F, sep="\t")
+write.table(txi$length, "tximport.length.dat", quote=F, sep="\t")
+write.table(txi$countsFromAbundance, "tximport.countsFromAbundance.dat", quote=F, sep="\t")
+
+
+
+
+
+
+
