@@ -1,0 +1,17 @@
+#!/usr/bin/env Rscript
+
+charlotte = read.table("tximport.counts.dat")
+mine = read.table("salmon.gene.counts.matrix")
+
+mine = mine[rownames(charlotte),] # ensure in same order
+
+samples = colnames(mine)
+
+pdf("compare.pdf")
+
+for (sample in samples) {
+
+	c_sample = paste0('c_', sample)
+    plot(log2(mine[,sample]+1), log2(charlotte[,c_sample]+1), main=sample)
+}
+
