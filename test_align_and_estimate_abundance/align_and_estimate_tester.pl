@@ -63,7 +63,6 @@ main: {
     }
     
     my @trans_results;
-    my @gene_results;
     
     foreach my $sample (@samples) {
         my ($sample_name, @local_params) = @$sample;
@@ -77,24 +76,20 @@ main: {
             $cmd .= " --est_method RSEM --output_dir $outdir --aln_method bowtie2 --coordsort_bam ";
             
             push (@trans_results, "$outdir/RSEM.isoforms.results");
-            push (@gene_results, "$outdir/RSEM.genes.results");
             
         }
         elsif ($method =~ /eXpress/i) {
             $cmd .= " --est_method eXpress --output_dir $outdir --aln_method bowtie2 ";
             push (@trans_results, "$outdir/results.xprs");
-            push (@gene_results, "$outdir/results.xprs.genes");
         }
         elsif ($method eq 'kallisto') {
             $cmd .= " --est_method kallisto --output_dir $outdir ";
             push (@trans_results, "$outdir/abundance.tsv");
-            push (@gene_results, "$outdir/abundance.tsv.genes");
         }
         elsif($method =~ /salmon-(\w+)$/) {
             my $salmon_idx_type = $1;
             $cmd .= " --est_method salmon --salmon_idx_type $salmon_idx_type --output_dir $outdir";
             push (@trans_results, "$outdir/quant.sf");
-            push (@gene_results, "$outdir/quant.sf.genes");
         }
         else {
             # shouldn't ever get here.
@@ -106,12 +101,8 @@ main: {
     }
     
     ## generate matrices.
-    my $cmd = "$utildir/abundance_estimates_to_matrix.pl --est_method $method --out_prefix $method-trans --name_sample_by_basedir @trans_results";
+    my $cmd = "$utildir/abundance_estimates_to_matrix.pl --gene_trans_map $trinity_fasta.gene_trans_map --est_method $method --out_prefix $method-trans --name_sample_by_basedir @trans_results";
     &process_cmd($cmd);
-    
-    $cmd = "$utildir/abundance_estimates_to_matrix.pl --est_method $method --out_prefix $method-gene --name_sample_by_basedir @gene_results";
-    &process_cmd($cmd);
-    
     
 
     exit(0);

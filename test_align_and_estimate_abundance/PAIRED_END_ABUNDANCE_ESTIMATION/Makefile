@@ -2,8 +2,22 @@ SAMPLES="samples.txt"
 TRINITY_FASTA="../../test_DATA/Trinity.fasta"
 
 test: test_RSEM test_eXpress test_kallisto test_salmon
-	../../../Analysis/DifferentialExpression/merge_matrices.pl RSEM-trans.TPM.not_cross_norm express-trans.TPM.not_cross_norm kallisto-trans.TPM.not_cross_norm salmon-quasi-trans.TPM.not_cross_norm salmon-fmd-trans.TPM.not_cross_norm > combined.TPM.not_cross_norm.matrix
-	../plot_paired_comparisons.Rscript
+	../../../Analysis/DifferentialExpression/merge_matrices.pl \
+	        RSEM-trans.isoform.TPM.not_cross_norm \
+	        express-trans.isoform.TPM.not_cross_norm \
+	        kallisto-trans.isoform.TPM.not_cross_norm \
+	        salmon-quasi-trans.isoform.TPM.not_cross_norm \
+	        salmon-fmd-trans.isoform.TPM.not_cross_norm > combined.isoform.TPM.not_cross_norm.matrix
+	../plot_paired_comparisons.Rscript combined.isoform.TPM.not_cross_norm.matrix 
+
+	../../../Analysis/DifferentialExpression/merge_matrices.pl \
+	        RSEM-trans.gene.TPM.not_cross_norm \
+	        express-trans.gene.TPM.not_cross_norm \
+	        kallisto-trans.gene.TPM.not_cross_norm \
+	        salmon-quasi-trans.gene.TPM.not_cross_norm \
+	        salmon-fmd-trans.gene.TPM.not_cross_norm > combined.gene.TPM.not_cross_norm.matrix
+	../plot_paired_comparisons.Rscript combined.gene.TPM.not_cross_norm.matrix
+
 	touch test
 
 test_RSEM:

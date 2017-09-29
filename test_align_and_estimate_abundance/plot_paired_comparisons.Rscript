@@ -1,7 +1,17 @@
 #!/usr/bin/env Rscript
 
-pdf("pairs.pdf")
-data = read.table("combined.TPM.not_cross_norm.matrix")
+args<-commandArgs(TRUE)
+
+if (length(args) == 0) {
+    stop("Error, require params: consolidated_dat_filename");
+}
+
+filename = args[1]
+
+pdf_filename = paste0(filename, '.pdf')
+
+pdf(pdf_filename)
+data = read.table(filename)
 data = log2(data+1)
 c = colnames(data)
 log_matrix = data[,grep("log", c)]
@@ -12,3 +22,4 @@ diauxic = data[, grep("diauxic", c)]
 pairs(diauxic)
 heatshock = data[, grep("heatshock", c)]
 pairs(heatshock)
+
