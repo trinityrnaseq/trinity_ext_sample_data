@@ -14,6 +14,8 @@ chdir $FindBin::RealBin or die "error, cannot cd to $FindBin::RealBin";
 my @files_to_keep = qw (cleanme.pl 
                         runMe.sh
                         samples.txt
+Makefile
+
 minigenome.fa 
 minigenome.gtf
 

@@ -18,7 +18,7 @@ fi
 
 ../../Analysis/SuperTranscripts/DTU/dexseq_wrapper.pl --genes_fasta trinSuper.fasta --genes_gtf trinSuper.gtf --samples_file samples.txt --out_prefix ${aligner}-S --aligner ${aligner}
 
-./compare_dexseq_results.pl ${aligner}-G.results.dat ${aligner}-S.results.dat > ${aligner}-compare.dat
+./compare_dexseq_results.pl ${aligner}-G.dexseq.results.dat ${aligner}-S.dexseq.results.dat > ${aligner}-compare.dat
 
 ./plot_comparison.Rscript ${aligner}-compare.dat
 
