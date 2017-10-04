@@ -6,17 +6,19 @@ test_align_and_estimate_abundance \
 test_full_edgeR_pipeline \
 test_GOSeq_trinotate_pipe \
 test_profiling_report \
-test_PtR
+test_PtR \
+test_DTU \
+test_VariantCalling \
+test_tximport
 
 
 
-test_all: test_trin_assembly
+
+test:
 	@for i in $(DIRS); do \
 	echo "Running example in $$i..."; \
 	(cd $$i; $(MAKE) test) || exit $$?; done
 
-test_trin_assembly:
-	cd test_Trinity_Assembly && make test_all
 
 
 clean:

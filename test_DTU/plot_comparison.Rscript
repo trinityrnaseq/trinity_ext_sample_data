@@ -1,6 +1,17 @@
 #!/usr/bin/env Rscript
 
-data = read.table("compare.dat", header=T)
-pdf("compare.pdf")
-plot(-1*log10(data$g_padj), -1*log10(data$s_padj))
+args<-commandArgs(TRUE)
+
+if (length(args) == 0) {
+    stop("Error, require params: consolidated_dat_filename");
+}
+
+filename = args[1]
+
+data = read.table(filename, header=T)
+pdf(paste0(filename, '.pdf'))
+
+c = cor(-1*log10(data$g_padj), -1*log10(data$s_padj))
+
+plot(-1*log10(data$g_padj), -1*log10(data$s_padj), main=paste0(filename, ", Cor: ", c))
 

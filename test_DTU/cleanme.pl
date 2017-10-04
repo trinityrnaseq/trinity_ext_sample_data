@@ -36,6 +36,11 @@ foreach my $file (<*>) {
 	}
 }
 
-`rm -rf ./star_aln_chkpts`;
+
+`rm -rf ./trinSuper.fasta.star.idx`;
+`rm -rf ./*chkpts*`;
+`rm -rf ./minigenome.fa.star.idx`;
+`rm -rf ./_STAR*`;
+
 
 exit(0);
