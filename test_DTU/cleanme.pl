@@ -36,5 +36,6 @@ foreach my $file (<*>) {
 	}
 }
 
+`rm -rf ./star_aln_chkpts`;
 
 exit(0);
