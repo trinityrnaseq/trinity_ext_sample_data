@@ -11,7 +11,7 @@ chdir $FindBin::RealBin or die "error, cannot cd to $FindBin::RealBin";
 
 
 
-my @files_to_keep = qw (cleanme.pl 
+my @files_to_keep = qw (cleanMe.pl 
                         runMe.sh
                         samples.txt
 Makefile
