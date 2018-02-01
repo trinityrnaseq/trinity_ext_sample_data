@@ -9,7 +9,8 @@ test_profiling_report \
 test_PtR \
 test_DTU \
 test_VariantCalling \
-test_tximport
+test_tximport \
+test_SuperTranscript
 
 
 
