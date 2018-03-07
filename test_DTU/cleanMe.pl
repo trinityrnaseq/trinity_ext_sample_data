@@ -23,7 +23,7 @@ mini.Trinity_fmt.fasta
 
 compare_dexseq_results.pl
 plot_comparison.Rscript
-
+ test_for_cor.sh
                         );
 
 
