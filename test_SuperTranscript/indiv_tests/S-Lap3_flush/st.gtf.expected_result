@@ -1,0 +1,9 @@
+S-Lap3	Trinity_gene	exon	375	2520	.	+	.	gene_id "S-Lap3"; transcript_id "S-Lap3_i3"
+S-Lap3	Trinity_gene	exon	2521	3014	.	+	.	gene_id "S-Lap3"; transcript_id "S-Lap3_i3"
+
+S-Lap3	Trinity_gene	exon	1	224	.	+	.	gene_id "S-Lap3"; transcript_id "S-Lap3_i2"
+S-Lap3	Trinity_gene	exon	225	374	.	+	.	gene_id "S-Lap3"; transcript_id "S-Lap3_i2"
+S-Lap3	Trinity_gene	exon	375	2520	.	+	.	gene_id "S-Lap3"; transcript_id "S-Lap3_i2"
+
+S-Lap3	Trinity_gene	exon	375	2520	.	+	.	gene_id "S-Lap3"; transcript_id "S-Lap3_i1"
+
