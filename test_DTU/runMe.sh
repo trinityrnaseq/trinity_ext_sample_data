@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ev
+set -ex
 
 aligner=$1
 

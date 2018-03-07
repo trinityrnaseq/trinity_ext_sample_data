@@ -20,9 +20,21 @@ main: {
         my $genome_best = $genome_signif{$gene};
         my $superT_best = $superT_signif{$gene};
 
+        my ($genome_best_padj, $genome_best_log2fold) = ("NA", "NA");
+        my ($superT_best_padj, $superT_best_log2fold) = ("NA", "NA");
+
+        if ($genome_best) {
+            ($genome_best_padj, $genome_best_log2fold) = ($genome_best->{padj}, $genome_best->{log2fold});
+        }
+
+        if ($superT_best) {
+            ($superT_best_padj, $superT_best_log2fold) = ($superT_best->{padj}, $superT_best->{log2fold});
+        }
+                
         print join("\t", $gene, 
-                   $genome_best->{padj}, $genome_best->{log2fold},
-                   $superT_best->{padj}, $superT_best->{log2fold}) . "\n";
+                   $genome_best_padj, $genome_best_log2fold,
+                   $superT_best_padj, $superT_best_log2fold) . "\n";
+                           
     }
 
     exit(0);

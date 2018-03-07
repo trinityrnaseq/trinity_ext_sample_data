@@ -11,7 +11,7 @@ filename = args[1]
 data = read.table(filename, header=T)
 pdf(paste0(filename, '.pdf'))
 
-c = cor(-1*log10(data$g_padj), -1*log10(data$s_padj))
+c = cor(-1*log10(data$g_padj), -1*log10(data$s_padj), use='complete.obs')
 
 plot(-1*log10(data$g_padj), -1*log10(data$s_padj), main=paste0(filename, ", Cor: ", c))
 
