@@ -14,11 +14,13 @@ fi
 ../../Analysis/SuperTranscripts/DTU/dexseq_wrapper.pl --genes_fasta minigenome.fa --genes_gtf minigenome.gtf --samples_file samples.txt --out_prefix ${aligner}-G --aligner ${aligner}
 
 
-../../Analysis/SuperTranscripts/Trinity_gene_splice_modeler.py  --trinity_fasta mini.Trinity_fmt.fasta --out_prefix trinSuper
+../../Analysis/SuperTranscripts/Trinity_gene_splice_modeler.py  --trinity_fasta mini.Trinity_fmt.fasta --out_prefix trinSuper --no_squeeze
 
 ../../Analysis/SuperTranscripts/DTU/dexseq_wrapper.pl --genes_fasta trinSuper.fasta --genes_gtf trinSuper.gtf --samples_file samples.txt --out_prefix ${aligner}-S --aligner ${aligner}
 
 ./compare_dexseq_results.pl ${aligner}-G.dexseq.results.dat ${aligner}-S.dexseq.results.dat > ${aligner}-compare.dat
+
+cat ${aligner}-compare.dat | perl -lane '@x = split(/\t/); push (@x, abs(log($x[1]+1e-50) - log($x[3]+1e-50))); print join("\t", @x);' | sort -k 6,6g > ${aligner}-compare.dat.delta
 
 ./plot_comparison.Rscript ${aligner}-compare.dat
 
