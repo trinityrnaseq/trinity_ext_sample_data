@@ -10,9 +10,8 @@ test_PtR \
 test_DTU \
 test_VariantCalling \
 test_tximport \
-test_SuperTranscript
-
-
+test_SuperTranscript \
+test_GOplot
 
 
 test:
