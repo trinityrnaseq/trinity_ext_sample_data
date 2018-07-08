@@ -1,4 +1,9 @@
 
+
+all: paired single samples_file
+
+test: all
+
 paired:
 	../../Analysis/SuperTranscripts/AllelicVariants/run_variant_calling.py \
                --st_fa supertranscripts.fasta \
@@ -7,7 +12,7 @@ paired:
                -o test_varcalling_paired
 
 
-all: paired single samples_file
+
 
 
 test: all

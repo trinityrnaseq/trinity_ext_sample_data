@@ -1,0 +1,109 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0006457	4.47936981833806e-09	0.999999999772283	11	52	protein folding	BP	2.38168093241035e-05	BP protein folding	TRINITY_DN1069_c0_g2, TRINITY_DN2541_c0_g1, TRINITY_DN2570_c0_g1, TRINITY_DN2700_c0_g1, TRINITY_DN3647_c0_g1, TRINITY_DN3776_c0_g1, TRINITY_DN45_c0_g1, TRINITY_DN4689_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN7657_c0_g1, TRINITY_DN779_c0_g1
+GO:0042026	5.32018114232843e-06	0.999999951005866	4	6	protein refolding	BP	0.00604026344289661	BP protein refolding	TRINITY_DN2541_c0_g1, TRINITY_DN2570_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN7657_c0_g1
+GO:0004601	7.55758708081078e-06	1	3	3	peroxidase activity	MF	0.00604026344289661	MF peroxidase activity	TRINITY_DN5638_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN871_c0_g1
+GO:0016684	7.55758708081078e-06	1	3	3	oxidoreductase activity, acting on peroxide as acceptor	MF	0.00604026344289661	MF oxidoreductase activity, acting on peroxide as acceptor	TRINITY_DN5638_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN871_c0_g1
+GO:0051920	7.55758708081078e-06	1	3	3	peroxiredoxin activity	MF	0.00604026344289661	MF peroxiredoxin activity	TRINITY_DN5638_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN871_c0_g1
+GO:0042743	7.95219937940122e-06	1	3	3	hydrogen peroxide metabolic process	BP	0.00604026344289661	BP hydrogen peroxide metabolic process	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN871_c0_g1
+GO:0042744	7.95219937940122e-06	1	3	3	hydrogen peroxide catabolic process	BP	0.00604026344289661	BP hydrogen peroxide catabolic process	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN871_c0_g1
+GO:0031072	4.97062500767386e-05	0.999998741509735	4	10	heat shock protein binding	MF	0.0295891548982943	MF heat shock protein binding	TRINITY_DN2570_c0_g1, TRINITY_DN2700_c0_g1, TRINITY_DN3776_c0_g1, TRINITY_DN779_c0_g1
+GO:0016209	5.00850844620366e-05	0.999998677562382	4	11	antioxidant activity	MF	0.0295891548982943	MF antioxidant activity	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN871_c0_g1
+GO:0044712	0.000130169922170895	0.999983485712636	8	67	single-organism catabolic process	BP	0.069211347618265	BP single-organism catabolic process	TRINITY_DN2035_c0_g1, TRINITY_DN2569_c0_g1, TRINITY_DN2946_c0_g1, TRINITY_DN4659_c0_g1, TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN7591_c0_g1, TRINITY_DN871_c0_g1
+GO:0072593	0.000167845258357307	0.99999754004537	3	6	reactive oxygen species metabolic process	BP	0.0811302944259818	BP reactive oxygen species metabolic process	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN871_c0_g1
+GO:0051082	0.00018911644544905	0.999987308704505	5	26	unfolded protein binding	MF	0.0837943450377164	MF unfolded protein binding	TRINITY_DN1069_c0_g2, TRINITY_DN2541_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN779_c0_g1, TRINITY_DN871_c0_g1
+GO:0008379	0.000410911194205983	1	2	2	thioredoxin peroxidase activity	MF	0.168062678430247	MF thioredoxin peroxidase activity	TRINITY_DN5638_c0_g1, TRINITY_DN871_c0_g1
+GO:0060590	0.000519416639717034	0.999986742251464	3	8	ATPase regulator activity	MF	0.175394541700904	MF ATPase regulator activity	TRINITY_DN2700_c0_g1, TRINITY_DN2946_c0_g1, TRINITY_DN3776_c0_g1
+GO:0051788	0.000527800012641427	1	2	2	response to misfolded protein	BP	0.175394541700904	BP response to misfolded protein	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1
+GO:0071218	0.000527800012641427	1	2	2	cellular response to misfolded protein	BP	0.175394541700904	BP cellular response to misfolded protein	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1
+GO:0006067	0.00059906043741774	1	2	2	ethanol metabolic process	BP	0.176955796986118	BP ethanol metabolic process	TRINITY_DN7591_c0_g1, TRINITY_DN7600_c0_g1
+GO:0034308	0.00059906043741774	1	2	2	primary alcohol metabolic process	BP	0.176955796986118	BP primary alcohol metabolic process	TRINITY_DN7591_c0_g1, TRINITY_DN7600_c0_g1
+GO:0016491	0.000652096789099987	0.99988012515161	9	108	oxidoreductase activity	MF	0.182484138297086	MF oxidoreductase activity	TRINITY_DN2035_c0_g1, TRINITY_DN3593_c0_g1, TRINITY_DN4659_c0_g1, TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN7591_c0_g1, TRINITY_DN7600_c0_g1, TRINITY_DN871_c0_g1
+GO:0043335	0.000748573456648486	1	2	2	protein unfolding	BP	0.19900825345	BP protein unfolding	TRINITY_DN2541_c0_g1, TRINITY_DN2570_c0_g1
+GO:0061077	0.00118887143366264	0.999956097919909	3	10	chaperone-mediated protein folding	BP	0.301010924418299	BP chaperone-mediated protein folding	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1, TRINITY_DN7657_c0_g1
+GO:0045454	0.00183414980279034	0.999917253819052	3	12	cell redox homeostasis	BP	0.443280659156193	BP cell redox homeostasis	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN871_c0_g1
+GO:0042802	0.00223524144222398	0.999891831172077	3	12	identical protein binding	MF	0.516729510795866	MF identical protein binding	TRINITY_DN1069_c0_g2, TRINITY_DN2569_c0_g1, TRINITY_DN3776_c0_g1
+GO:0098869	0.002503491831128	0.999966721120854	2	4	cellular oxidant detoxification	BP	0.554627752754483	BP cellular oxidant detoxification	TRINITY_DN4689_c0_g1, TRINITY_DN871_c0_g1
+GO:0070887	0.00344841883047586	0.999656641001176	4	27	cellular response to chemical stimulus	BP	0.733409716865607	BP cellular response to chemical stimulus	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1, TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1
+GO:0000302	0.00568577940422708	0.999866151648959	2	5	response to reactive oxygen species	BP	0.9999999999	BP response to reactive oxygen species	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1
+GO:0034614	0.00568577940422708	0.999866151648959	2	5	cellular response to reactive oxygen species	BP	0.9999999999	BP cellular response to reactive oxygen species	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1
+GO:0055114	0.0067986750841379	0.998477566486258	7	99	oxidation-reduction process	BP	0.9999999999	BP oxidation-reduction process	TRINITY_DN2035_c0_g1, TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN7591_c0_g1, TRINITY_DN7600_c0_g1, TRINITY_DN871_c0_g1
+GO:0042221	0.0074243183955537	0.999062644522727	4	33	response to chemical	BP	0.9999999999	BP response to chemical	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1, TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1
+GO:0051087	0.00763780288870306	0.999772176084927	2	6	chaperone binding	MF	0.9999999999	MF chaperone binding	TRINITY_DN2570_c0_g1, TRINITY_DN2700_c0_g1
+GO:0035966	0.00787033388712526	0.99976153371484	2	6	response to topologically incorrect protein	BP	0.9999999999	BP response to topologically incorrect protein	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1
+GO:0035967	0.00787033388712526	0.99976153371484	2	6	cellular response to topologically incorrect protein	BP	0.9999999999	BP cellular response to topologically incorrect protein	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1
+GO:1901700	0.00820286261293717	0.99974602314807	2	6	response to oxygen-containing compound	BP	0.9999999999	BP response to oxygen-containing compound	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1
+GO:1901701	0.00820286261293717	0.99974602314807	2	6	cellular response to oxygen-containing compound	BP	0.9999999999	BP cellular response to oxygen-containing compound	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1
+GO:0005515	0.00987343127808571	0.996891406986229	11	216	protein binding	MF	0.9999999999	MF protein binding	TRINITY_DN1069_c0_g2, TRINITY_DN2541_c0_g1, TRINITY_DN2569_c0_g1, TRINITY_DN2570_c0_g1, TRINITY_DN2700_c0_g1, TRINITY_DN3647_c0_g1, TRINITY_DN3776_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN754_c0_g1, TRINITY_DN779_c0_g1, TRINITY_DN871_c0_g1
+GO:0009056	0.0122060555052152	0.996397385882507	9	159	catabolic process	BP	0.9999999999	BP catabolic process	TRINITY_DN2035_c0_g1, TRINITY_DN2569_c0_g1, TRINITY_DN2946_c0_g1, TRINITY_DN4659_c0_g1, TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN754_c0_g1, TRINITY_DN7591_c0_g1, TRINITY_DN871_c0_g1
+GO:0006950	0.0128671101449858	0.996722299801046	7	109	response to stress	BP	0.9999999999	BP response to stress	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1, TRINITY_DN2700_c0_g1, TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN7661_c0_g1, TRINITY_DN871_c0_g1
+GO:0019682	0.0146441304500767	0.999326801839503	2	8	glyceraldehyde-3-phosphate metabolic process	BP	0.9999999999	BP glyceraldehyde-3-phosphate metabolic process	TRINITY_DN1829_c0_g3, TRINITY_DN2035_c0_g1
+GO:0008134	0.0174419046401634	0.999095880368189	2	9	transcription factor binding	MF	0.9999999999	MF transcription factor binding	TRINITY_DN2541_c0_g1, TRINITY_DN2570_c0_g1
+GO:0072330	0.018358249756372	0.997896740958549	3	22	monocarboxylic acid biosynthetic process	BP	0.9999999999	BP monocarboxylic acid biosynthetic process	TRINITY_DN3593_c0_g1, TRINITY_DN653_c0_g2, TRINITY_DN7591_c0_g1
+GO:0005759	0.0187141157876963	0.997815310261609	3	25	mitochondrial matrix	CC	0.9999999999	CC mitochondrial matrix	TRINITY_DN2541_c0_g1, TRINITY_DN7591_c0_g1, TRINITY_DN7657_c0_g1
+GO:0005777	0.0196239386188225	1	1	1	peroxisome	CC	0.9999999999	CC peroxisome	TRINITY_DN5652_c0_g1
+GO:0071629	0.0198879095565009	1	1	1	ubiquitin-dependent catabolism of misfolded proteins by cytoplasm-associated proteasome	BP	0.9999999999	BP ubiquitin-dependent catabolism of misfolded proteins by cytoplasm-associated proteasome	TRINITY_DN2946_c0_g1
+GO:0004602	0.0202328451955976	1	1	1	glutathione peroxidase activity	MF	0.9999999999	MF glutathione peroxidase activity	TRINITY_DN5638_c0_g1
+GO:0047935	0.0203342401011897	1	1	1	glucose 1-dehydrogenase (NADP+) activity	MF	0.9999999999	MF glucose 1-dehydrogenase (NADP+) activity	TRINITY_DN4659_c0_g1
+GO:0071310	0.0204488676815231	0.998846165983902	2	9	cellular response to organic substance	BP	0.9999999999	BP cellular response to organic substance	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1
+GO:0019379	0.020663590948697	1	1	1	sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin)	BP	0.9999999999	BP sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin)	TRINITY_DN4689_c0_g1
+GO:1900407	0.020663590948697	1	1	1	regulation of cellular response to oxidative stress	BP	0.9999999999	BP regulation of cellular response to oxidative stress	TRINITY_DN4689_c0_g1
+GO:1900409	0.020663590948697	1	1	1	positive regulation of cellular response to oxidative stress	BP	0.9999999999	BP positive regulation of cellular response to oxidative stress	TRINITY_DN4689_c0_g1
+GO:1902882	0.020663590948697	1	1	1	regulation of response to oxidative stress	BP	0.9999999999	BP regulation of response to oxidative stress	TRINITY_DN4689_c0_g1
+GO:1902884	0.020663590948697	1	1	1	positive regulation of response to oxidative stress	BP	0.9999999999	BP positive regulation of response to oxidative stress	TRINITY_DN4689_c0_g1
+GO:1990355	0.020663590948697	1	1	1	L-methionine salvage from methionine sulphoxide	BP	0.9999999999	BP L-methionine salvage from methionine sulphoxide	TRINITY_DN4689_c0_g1
+GO:0061407	0.0209673535468264	1	1	1	positive regulation of transcription from RNA polymerase II promoter in response to hydrogen peroxide	BP	0.9999999999	BP positive regulation of transcription from RNA polymerase II promoter in response to hydrogen peroxide	TRINITY_DN871_c0_g1
+GO:0006115	0.0217357492916627	1	1	1	ethanol biosynthetic process	BP	0.9999999999	BP ethanol biosynthetic process	TRINITY_DN7600_c0_g1
+GO:0034309	0.0217357492916627	1	1	1	primary alcohol biosynthetic process	BP	0.9999999999	BP primary alcohol biosynthetic process	TRINITY_DN7600_c0_g1
+GO:0043458	0.0217357492916627	1	1	1	ethanol biosynthetic process involved in glucose fermentation to ethanol	BP	0.9999999999	BP ethanol biosynthetic process involved in glucose fermentation to ethanol	TRINITY_DN7600_c0_g1
+GO:0060589	0.0222412626086655	0.997226903035192	3	25	nucleoside-triphosphatase regulator activity	MF	0.9999999999	MF nucleoside-triphosphatase regulator activity	TRINITY_DN2700_c0_g1, TRINITY_DN2946_c0_g1, TRINITY_DN3776_c0_g1
+GO:0050896	0.0234539632276555	0.993217236133581	7	122	response to stimulus	BP	0.9999999999	BP response to stimulus	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1, TRINITY_DN2700_c0_g1, TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN7661_c0_g1, TRINITY_DN871_c0_g1
+GO:0016616	0.0247541831512137	0.99677390186454	3	26	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	MF	0.9999999999	MF oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	TRINITY_DN2035_c0_g1, TRINITY_DN4659_c0_g1, TRINITY_DN7600_c0_g1
+GO:0070414	0.0249364988031919	1	1	1	trehalose metabolism in response to heat stress	BP	0.9999999999	BP trehalose metabolism in response to heat stress	TRINITY_DN6662_c0_g1
+GO:0090441	0.0249364988031919	1	1	1	trehalose biosynthesis in response to heat stress	BP	0.9999999999	BP trehalose biosynthesis in response to heat stress	TRINITY_DN6662_c0_g1
+GO:0050821	0.0267830140067557	1	1	1	protein stabilization	BP	0.9999999999	BP protein stabilization	TRINITY_DN2541_c0_g1
+GO:0004768	0.0273113152835355	1	1	1	stearoyl-CoA 9-desaturase activity	MF	0.9999999999	MF stearoyl-CoA 9-desaturase activity	TRINITY_DN3593_c0_g1
+GO:0016215	0.0273113152835355	1	1	1	acyl-CoA desaturase activity	MF	0.9999999999	MF acyl-CoA desaturase activity	TRINITY_DN3593_c0_g1
+GO:0006739	0.0275646293288319	0.998104541458111	2	11	NADP metabolic process	BP	0.9999999999	BP NADP metabolic process	TRINITY_DN2035_c0_g1, TRINITY_DN7591_c0_g1
+GO:0004030	0.0279941108422819	1	1	1	aldehyde dehydrogenase [NAD(P)+] activity	MF	0.9999999999	MF aldehyde dehydrogenase [NAD(P)+] activity	TRINITY_DN7591_c0_g1
+GO:0006068	0.0279941108422819	1	1	1	ethanol catabolic process	BP	0.9999999999	BP ethanol catabolic process	TRINITY_DN7591_c0_g1
+GO:0019413	0.0279941108422819	1	1	1	acetate biosynthetic process	BP	0.9999999999	BP acetate biosynthetic process	TRINITY_DN7591_c0_g1
+GO:0034310	0.0279941108422819	1	1	1	primary alcohol catabolic process	BP	0.9999999999	BP primary alcohol catabolic process	TRINITY_DN7591_c0_g1
+GO:0010033	0.0283625665426759	0.99801936567325	2	11	response to organic substance	BP	0.9999999999	BP response to organic substance	TRINITY_DN1069_c0_g2, TRINITY_DN2570_c0_g1
+GO:0004802	0.0284278478841946	1	1	1	transketolase activity	MF	0.9999999999	MF transketolase activity	TRINITY_DN1829_c0_g3
+GO:0051085	0.0288118823045278	1	1	1	chaperone mediated protein folding requiring cofactor	BP	0.9999999999	BP chaperone mediated protein folding requiring cofactor	TRINITY_DN2570_c0_g1
+GO:0051787	0.0288118823045278	1	1	1	misfolded protein binding	MF	0.9999999999	MF misfolded protein binding	TRINITY_DN2570_c0_g1
+GO:0016614	0.0301705898155598	0.995731333606596	3	28	oxidoreductase activity, acting on CH-OH group of donors	MF	0.9999999999	MF oxidoreductase activity, acting on CH-OH group of donors	TRINITY_DN2035_c0_g1, TRINITY_DN4659_c0_g1, TRINITY_DN7600_c0_g1
+GO:0004587	0.030569227765198	1	1	1	ornithine-oxo-acid transaminase activity	MF	0.9999999999	MF ornithine-oxo-acid transaminase activity	TRINITY_DN2569_c0_g1
+GO:0006572	0.030569227765198	1	1	1	tyrosine catabolic process	BP	0.9999999999	BP tyrosine catabolic process	TRINITY_DN2569_c0_g1
+GO:0009074	0.030569227765198	1	1	1	aromatic amino acid family catabolic process	BP	0.9999999999	BP aromatic amino acid family catabolic process	TRINITY_DN2569_c0_g1
+GO:0019544	0.030569227765198	1	1	1	arginine catabolic process to glutamate	BP	0.9999999999	BP arginine catabolic process to glutamate	TRINITY_DN2569_c0_g1
+GO:0055129	0.030569227765198	1	1	1	L-proline biosynthetic process	BP	0.9999999999	BP L-proline biosynthetic process	TRINITY_DN2569_c0_g1
+GO:0034599	0.0362600901254055	0.997067534919432	2	12	cellular response to oxidative stress	BP	0.9999999999	BP cellular response to oxidative stress	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1
+GO:0030174	0.0368120361312223	1	1	1	regulation of DNA-dependent DNA replication initiation	BP	0.9999999999	BP regulation of DNA-dependent DNA replication initiation	TRINITY_DN754_c0_g1
+GO:0032297	0.0368120361312223	1	1	1	negative regulation of DNA-dependent DNA replication initiation	BP	0.9999999999	BP negative regulation of DNA-dependent DNA replication initiation	TRINITY_DN754_c0_g1
+GO:0033262	0.0368120361312223	1	1	1	regulation of nuclear cell cycle DNA replication	BP	0.9999999999	BP regulation of nuclear cell cycle DNA replication	TRINITY_DN754_c0_g1
+GO:1902576	0.0368120361312223	1	1	1	negative regulation of nuclear cell cycle DNA replication	BP	0.9999999999	BP negative regulation of nuclear cell cycle DNA replication	TRINITY_DN754_c0_g1
+GO:1903463	0.0368120361312223	1	1	1	regulation of mitotic cell cycle DNA replication	BP	0.9999999999	BP regulation of mitotic cell cycle DNA replication	TRINITY_DN754_c0_g1
+GO:1903464	0.0368120361312223	1	1	1	negative regulation of mitotic cell cycle DNA replication	BP	0.9999999999	BP negative regulation of mitotic cell cycle DNA replication	TRINITY_DN754_c0_g1
+GO:1903466	0.0368120361312223	1	1	1	regulation of mitotic DNA replication initiation	BP	0.9999999999	BP regulation of mitotic DNA replication initiation	TRINITY_DN754_c0_g1
+GO:1903467	0.0368120361312223	1	1	1	negative regulation of mitotic DNA replication initiation	BP	0.9999999999	BP negative regulation of mitotic DNA replication initiation	TRINITY_DN754_c0_g1
+GO:0006662	0.0397605236728017	0.999609771460975	1	2	glycerol ether metabolic process	BP	0.9999999999	BP glycerol ether metabolic process	TRINITY_DN4689_c0_g1
+GO:0018904	0.0397605236728017	0.999609771460975	1	2	ether metabolic process	BP	0.9999999999	BP ether metabolic process	TRINITY_DN4689_c0_g1
+GO:0043102	0.0403574370940352	0.99959783895052	1	2	amino acid salvage	BP	0.9999999999	BP amino acid salvage	TRINITY_DN4689_c0_g1
+GO:0071267	0.0403574370940352	0.99959783895052	1	2	L-methionine salvage	BP	0.9999999999	BP L-methionine salvage	TRINITY_DN4689_c0_g1
+GO:0001671	0.0411067900281134	0.999582599152798	1	2	ATPase activator activity	MF	0.9999999999	MF ATPase activator activity	TRINITY_DN2700_c0_g1
+GO:0032781	0.0411067900281134	0.999582599152798	1	2	positive regulation of ATPase activity	BP	0.9999999999	BP positive regulation of ATPase activity	TRINITY_DN2700_c0_g1
+GO:0006979	0.0411324228393583	0.996396412494898	2	13	response to oxidative stress	BP	0.9999999999	BP response to oxidative stress	TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1
+GO:0042030	0.0417631774902218	0.99956901198784	1	2	ATPase inhibitor activity	MF	0.9999999999	MF ATPase inhibitor activity	TRINITY_DN3776_c0_g1
+GO:0019419	0.0421573696085124	0.999560745307557	1	2	sulfate reduction	BP	0.9999999999	BP sulfate reduction	TRINITY_DN4689_c0_g1
+GO:0051091	0.0425782593131832	0.999551830091828	1	2	positive regulation of sequence-specific DNA binding transcription factor activity	BP	0.9999999999	BP positive regulation of sequence-specific DNA binding transcription factor activity	TRINITY_DN871_c0_g1
+GO:0042579	0.0435122483001976	0.999531719162407	1	2	microbody	CC	0.9999999999	CC microbody	TRINITY_DN5652_c0_g1
+GO:0030150	0.0444575888502089	0.995837096632982	2	16	protein import into mitochondrial matrix	BP	0.9999999999	BP protein import into mitochondrial matrix	TRINITY_DN45_c0_g1, TRINITY_DN7657_c0_g1
+GO:0043233	0.0448431643392505	0.992479432811784	3	35	organelle lumen	CC	0.9999999999	CC organelle lumen	TRINITY_DN2541_c0_g1, TRINITY_DN7591_c0_g1, TRINITY_DN7657_c0_g1
+GO:0070013	0.0448431643392505	0.992479432811784	3	35	intracellular organelle lumen	CC	0.9999999999	CC intracellular organelle lumen	TRINITY_DN2541_c0_g1, TRINITY_DN7591_c0_g1, TRINITY_DN7657_c0_g1
+GO:0019520	0.0449283092208669	0.999500366027952	1	2	aldonic acid metabolic process	BP	0.9999999999	BP aldonic acid metabolic process	TRINITY_DN2035_c0_g1
+GO:0019521	0.0449283092208669	0.999500366027952	1	2	D-gluconate metabolic process	BP	0.9999999999	BP D-gluconate metabolic process	TRINITY_DN2035_c0_g1
+GO:0032787	0.045548219602159	0.989707071773572	4	55	monocarboxylic acid metabolic process	BP	0.9999999999	BP monocarboxylic acid metabolic process	TRINITY_DN2035_c0_g1, TRINITY_DN3593_c0_g1, TRINITY_DN653_c0_g2, TRINITY_DN7591_c0_g1
+GO:0005737	0.0497457666874273	0.978052693016492	15	406	cytoplasm	CC	0.9999999999	CC cytoplasm	TRINITY_DN1069_c0_g2, TRINITY_DN1829_c0_g3, TRINITY_DN2035_c0_g1, TRINITY_DN2569_c0_g1, TRINITY_DN2570_c0_g1, TRINITY_DN2700_c0_g1, TRINITY_DN3776_c0_g1, TRINITY_DN4659_c0_g1, TRINITY_DN4689_c0_g1, TRINITY_DN5638_c0_g1, TRINITY_DN5652_c0_g1, TRINITY_DN7591_c0_g1, TRINITY_DN7600_c0_g1, TRINITY_DN7661_c0_g1, TRINITY_DN871_c0_g1
+GO:0009295	0.0498248119113274	0.999383913408794	1	2	nucleoid	CC	0.9999999999	CC nucleoid	TRINITY_DN7657_c0_g1
+GO:0042645	0.0498248119113274	0.999383913408794	1	2	mitochondrial nucleoid	CC	0.9999999999	CC mitochondrial nucleoid	TRINITY_DN7657_c0_g1
