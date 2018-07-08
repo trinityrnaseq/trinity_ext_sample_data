@@ -10,6 +10,8 @@ paired:
 all: paired single samples_file
 
 
+test: all
+
 single:
 	../../Analysis/SuperTranscripts/AllelicVariants/run_variant_calling.py \
                --st_fa supertranscripts.fasta \

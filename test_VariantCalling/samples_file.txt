@@ -1,0 +1,2 @@
+c1	r1	whitefly_rnaseq_1.fq.gz	whitefly_rnaseq_2.fq.gz
+c1	r2	small_1.fq.gz	small_2.fq.gz
