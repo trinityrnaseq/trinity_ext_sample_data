@@ -1,6 +1,7 @@
 
 
 test: test_edgeR test_DESeq2 test_voom test_ROTS test_PtR_PCA test_PtR_heatmap
+	./validate_results.pl
 
 test_edgeR:
 	../../../Analysis/DifferentialExpression/run_DE_analysis.pl  -m Trinity_trans.counts.matrix --method edgeR -s samples.txt -o edgeR_outdir
