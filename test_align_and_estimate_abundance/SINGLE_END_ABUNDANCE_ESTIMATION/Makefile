@@ -1,10 +1,9 @@
 SAMPLES="samples.txt"
 TRINITY_FASTA="../../test_DATA/Trinity.fasta"
 
-test: test_RSEM test_eXpress test_kallisto test_salmon
+test: test_RSEM test_kallisto test_salmon
 	../../../Analysis/DifferentialExpression/merge_matrices.pl \
 		RSEM-trans.isoform.TPM.not_cross_norm \
-		express-trans.isoform.TPM.not_cross_norm \
 		kallisto-trans.isoform.TPM.not_cross_norm \
 		salmon-quasi-trans.isoform.TPM.not_cross_norm \
 		salmon-fmd-trans.isoform.TPM.not_cross_norm \
@@ -18,14 +17,6 @@ ifeq ("", "$(shell which rsem-calculate-expression)")
 else
 	../align_and_estimate_tester.pl RSEM ${SAMPLES} ${TRINITY_FASTA}
 	touch test_RSEM
-endif
-
-test_eXpress:
-ifeq ("", "$(shell which express)")
-	echo WARNING: skipping express test, cant locate express tool in PATH	
-else
-	../align_and_estimate_tester.pl express ${SAMPLES} ${TRINITY_FASTA}
-	touch test_eXpress
 endif
 
 test_kallisto:
