@@ -11,7 +11,8 @@ test_DTU \
 test_VariantCalling \
 test_tximport \
 test_SuperTranscript \
-test_GOplot
+test_GOplot \
+test_TPM_weighted_gene_length
 
 
 test:

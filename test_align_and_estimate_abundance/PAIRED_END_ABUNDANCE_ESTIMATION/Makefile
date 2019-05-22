@@ -26,6 +26,7 @@ else
 	touch test_RSEM
 endif
 
+
 test_kallisto:
 ifeq ("", "$(shell which kallisto)")
 	echo WARNING: cannot find kallisto installed in PATH, skipping kallisto test
