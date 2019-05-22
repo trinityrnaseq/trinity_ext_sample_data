@@ -8,7 +8,7 @@ my $ALLOWED_DELTA_PCT = 5;
 
 main: {
     &verify("DESeq2_outdir/diffExpr.P0.001_C2.matrix", 1784);
-    &verify("ROTS_outdir/diffExpr.P0.001_C2.matrix", 84);
+    &verify("ROTS_outdir/diffExpr.P0.001_C2.matrix", 73);
     &verify("edgeR_outdir/diffExpr.P0.001_C2.matrix", 2063);
     &verify("voom_outdir/diffExpr.P0.001_C2.matrix", 1818);
 
