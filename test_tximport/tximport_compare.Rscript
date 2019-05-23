@@ -8,10 +8,10 @@ library(tximportData)
 dir <- system.file("extdata", package = "tximportData")
 
 samples <- read.table(file.path(dir, "samples.txt"), header = TRUE)
-files <- file.path(dir, "salmon", samples$run, "quant.sf")
+files <- file.path(dir, "salmon", samples$run, "quant.sf.gz")
 names(files) <- paste0("c_", samples$run)
 
-tx2gene <- read.csv(file.path(dir, "tx2gene.csv"))
+tx2gene <- read.csv(file.path(dir, "tx2gene.gencode.v27.csv"))
 
 library(tximport)
 library(readr)

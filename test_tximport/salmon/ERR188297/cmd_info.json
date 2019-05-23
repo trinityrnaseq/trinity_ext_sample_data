@@ -1,10 +1,11 @@
 {
-    "salmon_version": "0.6.0",
-    "threads": "10",
-    "biasCorrect": [],
-    "index": "salmon_0.6.0/index",
+    "salmon_version": "0.8.2",
+    "threads": "6",
+    "gcBias": [],
+    "index": "gencode.v27_salmon_0.8.2",
     "libType": "IU",
-    "mates1": "/dev/fd/63",
-    "mates2": "/dev/fd/62",
-    "output": "salmon_0.6.0/ERR188297"
+    "mates1": "fastq/ERR188297_1.fastq",
+    "mates2": "fastq/ERR188297_2.fastq",
+    "output": "quants/salmon/ERR188297",
+    "auxDir": "aux_info"
 }
