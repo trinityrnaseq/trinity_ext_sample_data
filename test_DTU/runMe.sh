@@ -25,4 +25,4 @@ cat ${aligner}-compare.dat | perl -lane '@x = split(/\t/); push (@x, abs(log($x[
 ./plot_comparison.Rscript ${aligner}-compare.dat
 
 # require at least min 0.95 correlation between genome and supertranscript based analysis
-./test_for_cor.sh ${aligner}-compare.dat.cor 0.95
+./test_for_cor.sh ${aligner}-compare.dat.cor 0.9

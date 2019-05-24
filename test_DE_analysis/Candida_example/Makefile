@@ -1,6 +1,6 @@
 
 
-test: test_edgeR test_DESeq2 test_voom test_ROTS test_PtR_PCA test_PtR_heatmap
+test: test_edgeR test_DESeq2 test_voom test_PtR_PCA test_PtR_heatmap
 	./validate_results.pl
 
 test_edgeR:
