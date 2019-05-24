@@ -5,4 +5,4 @@ test:
 	diff st.gtf.sort st.gtf.expected_result.sort
 
 clean:
-	rm -f ./st.gtf ./st.fasta
+	rm -f ./st.gtf ./st.fasta ./st.gtf.sort
