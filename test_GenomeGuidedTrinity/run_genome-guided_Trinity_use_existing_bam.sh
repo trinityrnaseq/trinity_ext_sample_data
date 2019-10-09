@@ -19,4 +19,4 @@ fi
 
 
 
-../../Trinity --genome_guided_max_intron 1000 --genome_guided_bam SP2.chr.bam --max_memory 2G  --output test_GG_use_bam_trinity_outdir
+$TRINITY_HOME/Trinity --genome_guided_max_intron 1000 --genome_guided_bam SP2.chr.bam --max_memory 2G  --output test_GG_use_bam_trinity_outdir
