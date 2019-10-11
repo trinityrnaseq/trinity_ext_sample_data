@@ -5,7 +5,7 @@ all: paired single samples_file
 test: all
 
 paired:
-	../../Analysis/SuperTranscripts/AllelicVariants/run_variant_calling.py \
+	${TRINITY_HOME}/Analysis/SuperTranscripts/AllelicVariants/run_variant_calling.py \
                --st_fa supertranscripts.fasta \
                --st_gtf supertranscripts.gtf \
                -p whitefly_rnaseq_1.fq.gz whitefly_rnaseq_2.fq.gz \
@@ -18,7 +18,7 @@ paired:
 test: all
 
 single:
-	../../Analysis/SuperTranscripts/AllelicVariants/run_variant_calling.py \
+	${TRINITY_HOME}/Analysis/SuperTranscripts/AllelicVariants/run_variant_calling.py \
                --st_fa supertranscripts.fasta \
                --st_gtf supertranscripts.gtf \
                -s whitefly_rnaseq_1.fq.gz \
@@ -26,7 +26,7 @@ single:
 
 
 samples_file:
-	../../Analysis/SuperTranscripts/AllelicVariants/run_variant_calling.py \
+	${TRINITY_HOME}/Analysis/SuperTranscripts/AllelicVariants/run_variant_calling.py \
                --st_fa supertranscripts.fasta \
                --st_gtf supertranscripts.gtf \
                -S samples_file.txt \

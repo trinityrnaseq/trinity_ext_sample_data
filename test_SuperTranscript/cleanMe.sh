@@ -2,5 +2,5 @@
 
 set -ev
 
-rm -f  ./st.malign ./st.gtf ./st.fasta
+rm -f  ./st.malign ./st.gtf ./st.fasta ./test
 
