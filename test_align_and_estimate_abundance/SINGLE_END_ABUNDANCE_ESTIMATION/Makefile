@@ -2,7 +2,7 @@ SAMPLES="samples.txt"
 TRINITY_FASTA="../../test_DATA/Trinity.fasta"
 
 test: test_RSEM test_kallisto test_salmon
-	../../../Analysis/DifferentialExpression/merge_matrices.pl \
+	${TRINITY_HOME}/Analysis/DifferentialExpression/merge_matrices.pl \
 		RSEM-trans.isoform.TPM.not_cross_norm \
 		kallisto-trans.isoform.TPM.not_cross_norm \
 		salmon-quasi-trans.isoform.TPM.not_cross_norm \

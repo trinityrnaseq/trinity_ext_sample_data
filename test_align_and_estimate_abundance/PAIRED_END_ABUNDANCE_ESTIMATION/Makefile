@@ -2,14 +2,14 @@ SAMPLES="samples.txt"
 TRINITY_FASTA="../../test_DATA/Trinity.fasta"
 
 test: test_RSEM test_kallisto test_salmon
-	../../../Analysis/DifferentialExpression/merge_matrices.pl \
+	${TRINITY_HOME}/Analysis/DifferentialExpression/merge_matrices.pl \
 	        RSEM-trans.isoform.TPM.not_cross_norm \
 	        kallisto-trans.isoform.TPM.not_cross_norm \
 	        salmon-quasi-trans.isoform.TPM.not_cross_norm \
 	        salmon-fmd-trans.isoform.TPM.not_cross_norm > combined.isoform.TPM.not_cross_norm.matrix
 	../plot_paired_comparisons.Rscript combined.isoform.TPM.not_cross_norm.matrix 
 
-	../../../Analysis/DifferentialExpression/merge_matrices.pl \
+	${TRINITY_HOME}/Analysis/DifferentialExpression/merge_matrices.pl \
 	        RSEM-trans.gene.TPM.not_cross_norm \
 	        kallisto-trans.gene.TPM.not_cross_norm \
 	        salmon-quasi-trans.gene.TPM.not_cross_norm \
