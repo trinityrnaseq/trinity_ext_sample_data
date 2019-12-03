@@ -13,7 +13,8 @@ test_tximport \
 test_SuperTranscript \
 test_GOplot \
 test_TPM_weighted_gene_length \
-test_ExN50
+test_ExN50 \
+test_Assembly_DiffReadFormattings
 
 
 test:
