@@ -5,15 +5,15 @@ test: test_RSEM test_kallisto test_salmon
 	${TRINITY_HOME}/Analysis/DifferentialExpression/merge_matrices.pl \
 	        RSEM-trans.isoform.TPM.not_cross_norm \
 	        kallisto-trans.isoform.TPM.not_cross_norm \
-	        salmon-quasi-trans.isoform.TPM.not_cross_norm \
-	        salmon-fmd-trans.isoform.TPM.not_cross_norm > combined.isoform.TPM.not_cross_norm.matrix
+	        salmon-trans.isoform.TPM.not_cross_norm \
+	        > combined.isoform.TPM.not_cross_norm.matrix
 	../plot_paired_comparisons.Rscript combined.isoform.TPM.not_cross_norm.matrix 
 
 	${TRINITY_HOME}/Analysis/DifferentialExpression/merge_matrices.pl \
 	        RSEM-trans.gene.TPM.not_cross_norm \
 	        kallisto-trans.gene.TPM.not_cross_norm \
-	        salmon-quasi-trans.gene.TPM.not_cross_norm \
-	        salmon-fmd-trans.gene.TPM.not_cross_norm > combined.gene.TPM.not_cross_norm.matrix
+	        salmon--trans.gene.TPM.not_cross_norm \
+	        > combined.gene.TPM.not_cross_norm.matrix
 	../plot_paired_comparisons.Rscript combined.gene.TPM.not_cross_norm.matrix
 
 	touch test
@@ -39,8 +39,7 @@ test_salmon:
 ifeq ("", "$(shell which salmon)")
 	echo WARNING: cannot find salmon installed in PATH, skipping salmon test
 else
-	../align_and_estimate_tester.pl salmon-quasi ${SAMPLES} ${TRINITY_FASTA}
-	../align_and_estimate_tester.pl salmon-fmd ${SAMPLES} ${TRINITY_FASTA}
+	../align_and_estimate_tester.pl salmon ${SAMPLES} ${TRINITY_FASTA}
 	touch test_salmon
 endif
 

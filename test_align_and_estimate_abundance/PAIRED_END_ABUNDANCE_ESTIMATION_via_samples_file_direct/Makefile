@@ -27,7 +27,7 @@ ifeq ("", "$(shell which salmon)")
 	echo WARNING: cannot find salmon installed in PATH, skipping salmon test
 else
 	ln -sf ${TRINITY_FASTA}
-	${TRINITY_HOME}/util/align_and_estimate_abundance.pl  --transcripts Trinity.fasta --est_method salmon --trinity_mode --prep_reference --samples_file samples.txt --SS_lib_type RF --seqType fq --salmon_idx_type quasi
+	${TRINITY_HOME}/util/align_and_estimate_abundance.pl  --transcripts Trinity.fasta --est_method salmon --trinity_mode --prep_reference --samples_file samples.txt --SS_lib_type RF --seqType fq 
 	touch test_salmon
 endif
 

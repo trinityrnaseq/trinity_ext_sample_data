@@ -9,11 +9,11 @@ use lib ("$ENV{TRINITY_HOME}/PerlLib");
 use Process_cmd;
 
 
-my $usage = "usage: $0 (RSEM|eXpress|kallisto|salmon-(fmd|quasi)) samples.txt Trinity.fasta\n\n";
+my $usage = "usage: $0 (RSEM|eXpress|kallisto|salmon) samples.txt Trinity.fasta\n\n";
 
 
 my $method = $ARGV[0] or die $usage;
-unless ($method =~ /^(RSEM|eXpress|kallisto|salmon-(fmd|quasi))$/i) {
+unless ($method =~ /^(RSEM|eXpress|kallisto|salmon)$/i) {
     die $usage;
 }
 my $samples_file = $ARGV[1] or die $usage;
@@ -86,9 +86,9 @@ main: {
             $cmd .= " --est_method kallisto --output_dir $outdir ";
             push (@trans_results, "$outdir/abundance.tsv");
         }
-        elsif($method =~ /salmon-(\w+)$/) {
+        elsif($method eq 'salmon') {
             my $salmon_idx_type = $1;
-            $cmd .= " --est_method salmon --salmon_idx_type $salmon_idx_type --output_dir $outdir";
+            $cmd .= " --est_method salmon --output_dir $outdir";
             push (@trans_results, "$outdir/quant.sf");
         }
         else {
