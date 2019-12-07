@@ -2,7 +2,7 @@
 MINASM=9
 
 
-all: forward_reverse stripped
+test: forward_reverse stripped
 
 
 regular:
