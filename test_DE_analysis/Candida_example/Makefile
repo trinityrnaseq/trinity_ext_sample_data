@@ -13,7 +13,7 @@ test_edgeR:
 test_DESeq2:
 	${TRINITY_HOME}/Analysis/DifferentialExpression/run_DE_analysis.pl  -m Trinity_trans.counts.matrix --method DESeq2 -s samples.txt -o DESeq2_outdir
 	cd DESeq2_outdir && ${TRINITY_HOME}/Analysis/DifferentialExpression/analyze_diff_expr.pl  \
-	--matrix ../Trinity_trans.TMM.EXPR.matrix --samples ../samples.txt && \
+	--matrix ../Trinity_trans.TMM.EXPR.matrix --samples ../samples.txt --order_columns_by_samples_file && \
 	${TRINITY_HOME}/Analysis/DifferentialExpression/validate_UP_subset.Rscript ../samples.txt
 	touch test_DESeq2
 
