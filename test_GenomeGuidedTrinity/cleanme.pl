@@ -32,11 +32,18 @@ run_genome-guided_Trinity.sh
 run_genome-guided_Trinity_use_existing_bam.sh
 run_Schizo_TrinityGG.SE.sh
 
+run_chr17_GG_wLongreads.sh
+chr17.pbio.bam
+chr17.illumina.bam
+
+
 __run_genome-guided_Trinity_use_existing_bam.use_LSF.sh
 __run_genome-guided_Trinity_use_existing_bam.use_SGE.sh
 __run_genome-guided_Trinity_use_existing_bam.use_PBS.sh
 run_small_GG_mutliScaff_test.sh
-transAligns.cSorted.bam                        );
+transAligns.cSorted.bam                        
+
+);
 
 
 my %keep = map { + $_ => 1 } @files_to_keep;
@@ -54,6 +61,6 @@ foreach my $file (<*>) {
 `rm -rf ./test_GG_use_bam_trinity_outdir/`;
 `rm -rf ./test_Schizo_trinityGG_jaccard_RF_outdir/`;
 `rm -rf ./test_GG_use_small_multiscaff_bam_trinity_outdir`;
-
+`rm -rf ./test_chr17_LR_GG_trinity_outdir`;
 
 exit(0);
