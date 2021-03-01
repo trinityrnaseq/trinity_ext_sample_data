@@ -3,16 +3,16 @@ TRINITY_FASTA="../../test_DATA/Trinity.fasta"
 
 test: test_RSEM test_kallisto test_salmon
 	${TRINITY_HOME}/Analysis/DifferentialExpression/merge_matrices.pl \
-	        RSEM-trans.isoform.TPM.not_cross_norm \
-	        kallisto-trans.isoform.TPM.not_cross_norm \
-	        salmon-trans.isoform.TPM.not_cross_norm \
+	        RSEM-trans.TPM.not_cross_norm \
+	        kallisto-trans.TPM.not_cross_norm \
+	        salmon-trans.TPM.not_cross_norm \
 	        > combined.isoform.TPM.not_cross_norm.matrix
 	../plot_paired_comparisons.Rscript combined.isoform.TPM.not_cross_norm.matrix 
 
 	${TRINITY_HOME}/Analysis/DifferentialExpression/merge_matrices.pl \
 	        RSEM-trans.gene.TPM.not_cross_norm \
 	        kallisto-trans.gene.TPM.not_cross_norm \
-	        salmon--trans.gene.TPM.not_cross_norm \
+	        salmon-trans.gene.TPM.not_cross_norm \
 	        > combined.gene.TPM.not_cross_norm.matrix
 	../plot_paired_comparisons.Rscript combined.gene.TPM.not_cross_norm.matrix
 

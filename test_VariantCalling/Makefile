@@ -9,7 +9,8 @@ paired:
                --st_fa supertranscripts.fasta \
                --st_gtf supertranscripts.gtf \
                -p whitefly_rnaseq_1.fq.gz whitefly_rnaseq_2.fq.gz \
-               -o test_varcalling_paired
+               -o test_varcalling_paired \
+               --rg_id whitefly_id --rg_sample whitefly_sample
 
 
 
@@ -22,7 +23,8 @@ single:
                --st_fa supertranscripts.fasta \
                --st_gtf supertranscripts.gtf \
                -s whitefly_rnaseq_1.fq.gz \
-               -o test_varcalling_single
+               -o test_varcalling_single \
+               --rg_id whitefly_id --rg_sample whitefly_sample
 
 
 samples_file:
