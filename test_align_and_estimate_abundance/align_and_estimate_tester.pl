@@ -101,7 +101,7 @@ main: {
     }
     
     ## generate matrices.
-    my $cmd = "$utildir/abundance_estimates_to_matrix.pl --gene_trans_map $trinity_fasta.gene_trans_map --est_method $method --out_prefix $method-trans --name_sample_by_basedir @trans_results";
+    my $cmd = "$utildir/abundance_estimates_to_matrix.pl --gene_trans_map $trinity_fasta.gene_trans_map --est_method $method --out_prefix $method --name_sample_by_basedir @trans_results";
     &process_cmd($cmd);
     
 
