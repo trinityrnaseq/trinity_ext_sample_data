@@ -1,6 +1,6 @@
 test:
-	./runMe.sh STAR
-	./runMe.sh HISAT2
+	./runMe.STAR.sh
+	./runMe.hisat.sh
 
 clean:
 	./cleanMe.pl

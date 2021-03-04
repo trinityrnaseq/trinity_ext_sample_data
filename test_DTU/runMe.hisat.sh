@@ -11,8 +11,7 @@ if [ -z ${aligner} ]; then
     exit 1
 fi
 
-${TRINITY_HOME}/Analysis/SuperTranscripts/DTU/dexseq_wrapper.pl --genes_fasta minigenome.fa --genes_gtf minigenome.gtf --samples_file samples.txt --out_prefix ${aligner}-G --aligner ${aligner} 
-
+${TRINITY_HOME}/Analysis/SuperTranscripts/DTU/dexseq_wrapper.pl --genes_fasta minigenome.fa --genes_gtf minigenome.gtf --samples_file samples.txt --out_prefix ${aligner}-G --aligner ${aligner}
 
 
 ${TRINITY_HOME}/Analysis/SuperTranscripts/Trinity_gene_splice_modeler.py  --trinity_fasta mini.Trinity_fmt.fasta --out_prefix trinSuper --no_squeeze --no_refinement
