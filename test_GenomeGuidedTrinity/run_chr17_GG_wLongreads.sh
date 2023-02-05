@@ -15,3 +15,12 @@ exit 0
 
 
     
+outfile="test_chr17_LR_GG_trinity_outdir/Trinity-GG.fasta"
+asmsize=$(wc -c <"${outfile}")
+if [ $asmsize -le 900000 ]; then
+    echo "Error, ${outfile} potentially incomplete"
+    exit 1
+else
+    echo "ok"
+    exit 0
+fi
