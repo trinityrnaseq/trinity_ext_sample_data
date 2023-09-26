@@ -1,0 +1,7 @@
+Bone    Bone_255_AR005_ACAGTG
+Bone    Bone_256_AR006_GCCAAT
+Bone    Bone_257_AR012_CTTGTA
+Blastema    distal_CGATGT_L008
+Blastema    distal_GCCAAT_L006
+Blastema    proximal_CAGATC_L006
+Blastema    proximal_TGACCA_L008
